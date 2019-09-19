@@ -59,12 +59,12 @@ export default class Drawer extends React.Component {
     offset: 0
   };
 
-  componentWillReceiveProps(nextProps) {
-    const { open } = this.props;
-    const { open: nextOpen } = nextProps;
+  componentDidUpdate(prevProps) {
+    const { open } = prevProps;
+    const {open: nextOpen} = this.props;
 
-    if (nextOpen !== open) {
-      if (nextOpen) this.open();
+    if(nextOpen !== open) {
+      if(nextOpen) this.open();
       else this.close();
     }
   }
