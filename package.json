@@ -1,6 +1,6 @@
 {
   "name": "react-motion-drawer",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Navigation drawer built with the awesome react-motion and react-hammerjs",
   "scripts": {
     "build": "babel lib --out-dir ./",
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/stoeffel/react-motion-drawer.git"
+    "url": "https://github.com/lexithium/react-motion-drawer.git"
   },
   "keywords": [
     "react",
@@ -35,9 +35,9 @@
   "author": "Christoph Hermann <schtoeffel@gmail.com> (http://github.com/stoeffel)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stoeffel/react-motion-drawer/issues"
+    "url": "https://github.com/lexithium/react-motion-drawer/issues"
   },
-  "homepage": "https://github.com/stoeffel/react-motion-drawer",
+  "homepage": "https://github.com/lexithium/react-motion-drawer",
   "peerDependencies": {
     "react": "^15.4.2 || ^16.0.0"
   },
